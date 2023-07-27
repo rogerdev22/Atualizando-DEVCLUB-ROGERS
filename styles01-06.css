@@ -1,0 +1,39 @@
+/* Comentario aqui no CSS : para estilizar ID usar #
+*/
+
+#titulo {
+         color:red;
+         font-size: 55px;
+}
+
+#paragrafo {
+          color:blue;
+          font-size: 20px;   
+          font-weight: bold;
+
+}
+
+#botao {
+       background: greenyellow;
+}
+#outro-botao {
+        background: chocolate;
+}
+
+/* Para estilizar usando CLASS o comando . ( ponto )
+*/
+
+.texto {
+        color:rgb(102, 95, 95);
+        font-weight:bold;
+}
+
+.botao {
+        background:rgb(161, 161, 228);
+}
+
+/* Podemos tambem concatenar todos exemplo ::after
+*/
+.texto, .botao, p, #segundo-botao {
+    color: coral;
+}

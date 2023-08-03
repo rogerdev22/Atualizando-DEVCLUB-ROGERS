@@ -1,0 +1,21 @@
+
+/* 10 HTML X CSS
+IREMOS USAR AGORA O ESTILO BOX SIZING
+*/
+/* Antes useremo um formato padrao para todos com o *
+e  o estilo border-box que não altera o formato da altura e da largura.
+se usar o padrao content-box irá alterar as medidas dos componentes .
+USAREMOS SEMPRE O BORDER-BOX
+*/
+* {
+    box-sizing: border-box;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background: #ff1493;
+    padding:50px;
+    margin: 20px;
+    border: 10px dashed #0000ff;
+    
+}

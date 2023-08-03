@@ -1,0 +1,78 @@
+/* Exercicio 08 - Usando estilos em textos HTML
+*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1 {
+    color:red;
+    font-size:64px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    font-style:italic;
+    text-shadow: 10px 10px 10px #023e4f;
+}
+h2 {
+    color:rgb(109, 93, 102);
+    font-size:150px;
+    font-weight:50px ;
+    font-family: 'Roboto', sans-serif;
+    font-style:calc();
+     text-shadow: 10px 10px 10px #3dde3a;
+
+}
+p {
+    color:blue;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+   /* font-style: oblique;
+    line-height: 10px;
+    word-spacing: 40px;
+    text-align: justify;
+  */
+  text-transform: capitalize; 
+  text-decoration:underline;
+  
+}
+p2 {
+  color:pink;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+ /* font-style: oblique;
+  line-height: 10px;
+  word-spacing: 40px;
+  text-align: justify;
+*/
+text-transform: capitalize; 
+text-decoration:underline;
+
+}
+p3 {
+  color:orange;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+ /* font-style: oblique;
+  line-height: 10px;
+  word-spacing: 40px;
+  text-align: justify;
+*/
+text-transform: capitalize; 
+text-decoration:underline;
+
+}
+p4 {
+  color:aquamarine;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+ /* font-style: oblique;
+  line-height: 10px;
+  word-spacing: 40px;
+  text-align: justify;
+*/
+text-transform: capitalize; 
+text-decoration:underline;
+
+}

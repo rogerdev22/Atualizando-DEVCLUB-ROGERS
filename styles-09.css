@@ -1,0 +1,29 @@
+/* Estilo de margin e padding
+Hoje 28-07-2023 as 18:36
+*/
+
+.box {
+    width: 50px;
+    height: 50px;
+    background: #ff1493;
+    padding:50px;
+    margin: 20px;
+    
+}
+.box-2 {
+    width: 50px;
+    min-height: 50px;
+    background: #9932cc;
+    padding: 50px;
+    margin: 50px;
+/* Formato do relogio : 
+margin : 10px 50px 30px 5px
+*/
+margin: 10px 20px 30px 40px;
+/* Formato com relogio 3 pontos 
+*/
+margin:50px 60px 70px;
+
+
+
+}
